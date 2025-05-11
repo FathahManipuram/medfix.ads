@@ -209,6 +209,24 @@ nav .offcanvas-body .copy-right h6{
 	background-color: #ffc700;
 	border-radius: 25px;
 	padding: 20px;
+	position: relative;
+}
+.services .container .row::before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-image: url(./images/image/42394.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 0;
+	opacity: 0.4;
+	border-radius: 25px;
+
+	
 }
 .services h1{
 	font-size: 70px;
@@ -300,6 +318,22 @@ nav .offcanvas-body .copy-right h6{
 
 .portfolio .row{
 	background-color: white;
+	border-radius: 25px;
+	position: relative;
+}
+.portfolio .row::before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-image: url(./images/image/42394.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 0;
+	opacity: 0.1;
 	border-radius: 25px;
 }
 .portfolio h1{
